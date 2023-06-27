@@ -74,7 +74,9 @@ const deleteItem = () => {
 
         border-left: 1px solid var(--primary-border, #4D4D4D);
         background: rgba(38, 38, 38, 0.50);
+        
         backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
 
         z-index: 2;
 
@@ -150,7 +152,9 @@ const deleteItem = () => {
         &__actions {
             border: 1px solid var(--primary-border);
             background: rgba(38, 38, 38, 0.60);
+
             backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
 
             position: absolute;
             
