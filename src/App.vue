@@ -1,7 +1,7 @@
 <script setup>
 import Inventory from "./components/Inventory.vue";
-import OptionalCard from "./components/optionalCard.vue";
-import WorldCard from "./components/worldCard.vue";
+import OptionalCard from "./components/OptionalCard.vue";
+import WorldCard from "./components/WorldCard.vue";
 
 </script>
 
